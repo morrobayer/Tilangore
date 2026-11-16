@@ -4,6 +4,10 @@ import './globals.css';
 export const metadata: Metadata = {
   title: 'EvidenceForge — Ecommerce Thesis Audit',
   description: 'Pressure-test an ecommerce venture before you build the catalogue.',
+  icons: {
+    icon: '/favicon.ico',
+    apple: '/apple-touch-icon.png',
+  },
 };
 
 export default function RootLayout({
